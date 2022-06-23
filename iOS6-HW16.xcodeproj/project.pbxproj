@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		3A8DB0932864548B008EC203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DB0922864548B008EC203 /* AppDelegate.swift */; };
-		3A8DB0952864548B008EC203 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DB0942864548B008EC203 /* SceneDelegate.swift */; };
-		3A8DB0972864548B008EC203 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DB0962864548B008EC203 /* ViewController.swift */; };
-		3A8DB09A2864548B008EC203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8DB0982864548B008EC203 /* Main.storyboard */; };
+		3A8DB0972864548B008EC203 /* StudentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DB0962864548B008EC203 /* StudentViewController.swift */; };
 		3A8DB09C2864548D008EC203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A8DB09B2864548D008EC203 /* Assets.xcassets */; };
-		3A8DB09F2864548D008EC203 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A8DB09D2864548D008EC203 /* LaunchScreen.storyboard */; };
+		3A8DB0B1286457A9008EC203 /* StudentViewController+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DB0B0286457A9008EC203 /* StudentViewController+Constants.swift */; };
+		3A8DB0B3286457EF008EC203 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DB0B2286457EF008EC203 /* UIView+Constraints.swift */; };
+		3A8DB0B528645816008EC203 /* UIStackView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DB0B428645816008EC203 /* UIStackView+Constraints.swift */; };
+		3A8DB0B728645C9E008EC203 /* StudentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DB0B628645C9E008EC203 /* StudentPresenter.swift */; };
+		3A8DB0B928645CBF008EC203 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DB0B828645CBF008EC203 /* Student.swift */; };
+		3A8DB0BB28645CE7008EC203 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DB0BA28645CE7008EC203 /* StudentModel.swift */; };
+		3A8DB0BD28645D61008EC203 /* StudentPresenter+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8DB0BC28645D61008EC203 /* StudentPresenter+Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A8DB08F2864548B008EC203 /* iOS6-HW16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS6-HW16.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A8DB0922864548B008EC203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A8DB0942864548B008EC203 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A8DB0962864548B008EC203 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3A8DB0992864548B008EC203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A8DB0962864548B008EC203 /* StudentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewController.swift; sourceTree = "<group>"; };
 		3A8DB09B2864548D008EC203 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3A8DB09E2864548D008EC203 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A8DB0A02864548D008EC203 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8DB0B0286457A9008EC203 /* StudentViewController+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentViewController+Constants.swift"; sourceTree = "<group>"; };
+		3A8DB0B2286457EF008EC203 /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		3A8DB0B428645816008EC203 /* UIStackView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Constraints.swift"; sourceTree = "<group>"; };
+		3A8DB0B628645C9E008EC203 /* StudentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentPresenter.swift; sourceTree = "<group>"; };
+		3A8DB0B828645CBF008EC203 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		3A8DB0BA28645CE7008EC203 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		3A8DB0BC28645D61008EC203 /* StudentPresenter+Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StudentPresenter+Constants.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,99 @@
 		3A8DB0912864548B008EC203 /* iOS6-HW16 */ = {
 			isa = PBXGroup;
 			children = (
-				3A8DB0922864548B008EC203 /* AppDelegate.swift */,
-				3A8DB0942864548B008EC203 /* SceneDelegate.swift */,
-				3A8DB0962864548B008EC203 /* ViewController.swift */,
-				3A8DB0982864548B008EC203 /* Main.storyboard */,
-				3A8DB09B2864548D008EC203 /* Assets.xcassets */,
-				3A8DB09D2864548D008EC203 /* LaunchScreen.storyboard */,
-				3A8DB0A02864548D008EC203 /* Info.plist */,
+				3A8DB0A6286455B2008EC203 /* Sources */,
+				3A8DB0A7286455BB008EC203 /* Resources */,
 			);
 			path = "iOS6-HW16";
+			sourceTree = "<group>";
+		};
+		3A8DB0A6286455B2008EC203 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DB0AA286455F4008EC203 /* Extensions */,
+				3A8DB0A9286455CB008EC203 /* Scenes */,
+				3A8DB0A8286455C3008EC203 /* App */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		3A8DB0A7286455BB008EC203 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DB0AC28645619008EC203 /* Supporting files */,
+				3A8DB0AB2864560E008EC203 /* Configuration */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3A8DB0A8286455C3008EC203 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DB0922864548B008EC203 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3A8DB0A9286455CB008EC203 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DB0AF28645652008EC203 /* Model */,
+				3A8DB0AE28645648008EC203 /* View */,
+				3A8DB0AD28645641008EC203 /* Presenter */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3A8DB0AA286455F4008EC203 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DB0B0286457A9008EC203 /* StudentViewController+Constants.swift */,
+				3A8DB0B2286457EF008EC203 /* UIView+Constraints.swift */,
+				3A8DB0B428645816008EC203 /* UIStackView+Constraints.swift */,
+				3A8DB0BC28645D61008EC203 /* StudentPresenter+Constants.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3A8DB0AB2864560E008EC203 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DB0A02864548D008EC203 /* Info.plist */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		3A8DB0AC28645619008EC203 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DB09B2864548D008EC203 /* Assets.xcassets */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		3A8DB0AD28645641008EC203 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DB0B628645C9E008EC203 /* StudentPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		3A8DB0AE28645648008EC203 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DB0962864548B008EC203 /* StudentViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A8DB0AF28645652008EC203 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3A8DB0B828645CBF008EC203 /* Student.swift */,
+				3A8DB0BA28645CE7008EC203 /* StudentModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A8DB09F2864548D008EC203 /* LaunchScreen.storyboard in Resources */,
 				3A8DB09C2864548D008EC203 /* Assets.xcassets in Resources */,
-				3A8DB09A2864548B008EC203 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +228,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A8DB0972864548B008EC203 /* ViewController.swift in Sources */,
+				3A8DB0B728645C9E008EC203 /* StudentPresenter.swift in Sources */,
+				3A8DB0972864548B008EC203 /* StudentViewController.swift in Sources */,
+				3A8DB0B1286457A9008EC203 /* StudentViewController+Constants.swift in Sources */,
 				3A8DB0932864548B008EC203 /* AppDelegate.swift in Sources */,
-				3A8DB0952864548B008EC203 /* SceneDelegate.swift in Sources */,
+				3A8DB0B528645816008EC203 /* UIStackView+Constraints.swift in Sources */,
+				3A8DB0BD28645D61008EC203 /* StudentPresenter+Constants.swift in Sources */,
+				3A8DB0BB28645CE7008EC203 /* StudentModel.swift in Sources */,
+				3A8DB0B928645CBF008EC203 /* Student.swift in Sources */,
+				3A8DB0B3286457EF008EC203 /* UIView+Constraints.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		3A8DB0982864548B008EC203 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A8DB0992864548B008EC203 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3A8DB09D2864548D008EC203 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3A8DB09E2864548D008EC203 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3A8DB0A12864548D008EC203 /* Debug */ = {
@@ -289,10 +366,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MK8LDS6W26;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS6-HW16/Info.plist";
+				INFOPLIST_FILE = "iOS6-HW16/Resources/Configuration/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +393,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = MK8LDS6W26;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS6-HW16/Info.plist";
+				INFOPLIST_FILE = "iOS6-HW16/Resources/Configuration/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
